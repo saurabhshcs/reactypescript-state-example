@@ -1,7 +1,6 @@
 import ReactDOM  from "react-dom";
-import EventComponent from "./events/EventsComponent";
+import UserSearch from "./refs/UserSearch";
 import GuestList from './state/GuestList';
-import UserSearch from "./state/UserSearch";
 
 const App = () => {
     return (
@@ -13,7 +12,7 @@ const App = () => {
             <UserSearch/>
             <br />
             <br />
-            <EventComponent />
+            <UserSearch />
         </div>
     );
 };
